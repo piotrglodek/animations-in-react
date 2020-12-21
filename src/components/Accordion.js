@@ -43,6 +43,6 @@ const StyledContent = styled(motion.div)`
 `;
 
 Accordion.propTypes = {
-  head: PropTypes.element,
-  content: PropTypes.element,
+  head: PropTypes.node,
+  content: PropTypes.node,
 };
