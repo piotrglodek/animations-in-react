@@ -1,4 +1,4 @@
-import { Button, TodoList, Nav, Accordion } from './components';
+import { Button, TodoList, Nav, Accordion, SwipeInfo } from './components';
 import { motion } from 'framer-motion';
 
 function App() {
@@ -20,6 +20,8 @@ function App() {
         head='Accordion Title click to see more'
         content='Accordion content'
       />
+      <p>Swipe recognition, swipe to left to open</p>
+      <SwipeInfo />
     </motion.div>
   );
 }
