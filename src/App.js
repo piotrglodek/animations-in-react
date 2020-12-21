@@ -1,4 +1,4 @@
-import { Button, TodoList } from './components';
+import { Button, TodoList, Nav } from './components';
 import { motion } from 'framer-motion';
 
 function App() {
@@ -13,6 +13,8 @@ function App() {
       <Button label='Click me' />
       <p>Todolist with delete item animation</p>
       <TodoList />
+      <p>Navigation</p>
+      <Nav />
     </motion.div>
   );
 }
