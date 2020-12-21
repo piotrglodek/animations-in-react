@@ -1,4 +1,4 @@
-import { Button, TodoList, Nav } from './components';
+import { Button, TodoList, Nav, Accordion } from './components';
 import { motion } from 'framer-motion';
 
 function App() {
@@ -15,6 +15,11 @@ function App() {
       <TodoList />
       <p>Navigation</p>
       <Nav />
+      <p>Accordion</p>
+      <Accordion
+        head='Accordion Title click to see more'
+        content='Accordion content'
+      />
     </motion.div>
   );
 }
